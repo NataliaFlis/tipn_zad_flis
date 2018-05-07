@@ -1,9 +1,9 @@
 ---
 title: "zadanie6"
-output: html_document
-theme: united
-highlight: kate
-df_print: paged
+ output: html_document
+  theme: united
+  highlight: kate
+  df_print: paged
 ---
 
 
