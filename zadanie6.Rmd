@@ -1,11 +1,11 @@
 ---
 title: "zadanie6"
-  output: html_document
+output: 
+ html_document
    theme: united
    highlight: kate
    df_print: paged
 ---
-
 
 ## Audi
   
@@ -58,4 +58,5 @@ auta <- mpg %>% filter(manufacturer == "audi")
 ggplot(auta, aes(displ, cty)) + 
 geom_point() +
 labs(title = "Spalanie a pojemność", x = "Pojemność", y = "Spalanie")
-```
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
