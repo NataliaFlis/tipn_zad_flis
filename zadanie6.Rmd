@@ -15,7 +15,7 @@ się z gry słów: Audi to łacińska transkrypcja nazwiska Horch (oznacza „s�
 
 #### Jakie nagrody przyznano firmie Audi?
 
-1. 2005 – Audi A6: World Car of the Year
+1.2005 – Audi A6: World Car of the Year
 2.2007 – Audi RS 4: World Performance Car, Audi TT World Car Design of the Year
 3.2008 – Audi R8: World Performance Car, Audi R8 World Car Design of the Year
 4.2010 – Audi R8 V10: World Performance Car
@@ -28,10 +28,10 @@ Wszystkie modele Audi można zobaczyć na stronie:
 Rozmiary felg-Audi:
 
 | Model | Rocznik | Moc | Rozmiar felg |
-| A2 | 06.00 - 12.05 | 55 - 81kW |5Jx15|
-| A3 | 09.96 - 04.03 | 66 - 110kW |6Jx15|
-| A4 |12.94 - 11.00 | 55 - 128kW |6Jx15|
-| A8 |06.94 - 11.02|110 - 228kW |7Jx16|
+| A2 | 06.00 - 12.05 | 55 - 81kW | 5Jx15 |
+| A3 | 09.96 - 04.03 | 66 - 110kW | 6Jx15 |
+| A4 | 12.94 - 11.00 | 55 - 128kW | 6Jx15 |
+| A8 | 06.94 - 11.02 | 110 - 228kW | 7Jx16 |
 
 
   
