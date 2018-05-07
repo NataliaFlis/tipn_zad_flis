@@ -1,64 +1,56 @@
-tittle: "zadanie6"
+---
+title: "zadanie6"
+output: html_document
+theme: united
+highlight: kate
+df_print: paged
+---
 
-output:
-+ html_document:
-+    theme: united
-+    highlight: kate
-+    df_print: paged
-+  
-+## Audi
-+  
-+niemiecki producent samochodów osobowych z siedzibą w Ingolstadt w Bawarii, należący do 
+
+## Audi
+  
+niemiecki producent samochodów osobowych z siedzibą w Ingolstadt w Bawarii, należący do 
 koncernu Volkswagen AG. Założony w 1909 roku przez Augusta Horcha. Nazwa przedsiębiorstwa wywodzi 
 się z gry słów: Audi to łacińska transkrypcja nazwiska Horch (oznacza „słuchaj!”).
-+
-+#### Jakie nagrody przyznano firmie Audi?
-+
-+1. 2005 – Audi A6: World Car of the Year
+
+#### Jakie nagrody przyznano firmie Audi?
+
+1. 2005 – Audi A6: World Car of the Year
 2.2007 – Audi RS 4: World Performance Car, Audi TT World Car Design of the Year
 3.2008 – Audi R8: World Performance Car, Audi R8 World Car Design of the Year
 4.2010 – Audi R8 V10: World Performance Car
 5.2014 – Audi A3: World Car of the Yea
-+
-+Wszystkie modele Audi można zobaczyć na stronie:
-+
-+[Honda](http://https://www.audi.com/en.html/)
-+
-+Przy wyborze odpowiedniego modelu ważne jest, by zapoznać się z jego specyfikacjami, jak np.:
-+
-+| Silnik | Osiągi | Zużycie paliwa | Wymiary |
-+| Rodzaj paliwa | Przyspieszenie | Cykl miejski |Długość|
-+| Pojemność | Prędkość maksymalna| Cykl pozamiejski |Szerokość|
-+| Moc maksymalna || Cykl mieszany |Rozstaw osi|
-+| Maksymalny moment obrotowy || Emisja CO2||
-+
-+
-+    Motto Hondy brzmi: The Power of Dreams
-+
-+  
-+#### Samochody Audi
-+```{r}
-+library(tidyverse)
-+library(ggplot2)
-+
-+mpg %>% filter(manufacturer == "audi")
-+```
-+
-+#### Spalanie w mieście w zależności od pojemności (samochody Audi)
-+```{r}
-+library(tidyverse)
-+library(ggplot2)
-+
-+auta <- mpg %>% filter(manufacturer == "audi")
-+
-+ggplot(auta, aes(displ, cty)) + 
-+geom_point() +
-+labs(title = "Spalanie a pojemność", x = "Pojemność", y = "Spalanie")
-+```
-+
-+```{r include=FALSE}
-+ library(tidyverse)
-+library(ggplot2)
-+
-+mpg %>% filter(manufacturer == "audi", year == 2008)
-+```
+
+Wszystkie modele Audi można zobaczyć na stronie:
+
+[Audi](http://https://www.audi.com/en.html/)
+
+Rozmiary felg-Audi:
+
+| Model | Rocznik | Moc | Rozmiar felg |
+| A2 | 06.00 - 12.05 | 55 - 81kW |5Jx15|
+| A3 | 09.96 - 04.03 | 66 - 110kW |6Jx15|
+| A4 |12.94 - 11.00 | 55 - 128kW |6Jx15|
+| A8 |06.94 - 11.02|110 - 228kW |7Jx16|
+
+
+  
+#### Samochody Audi
+```{r}
+library(tidyverse)
+library(ggplot2)
+
+mpg %>% filter(manufacturer == "audi")
+```
+
+#### Spalanie w mieście w zależności od pojemności (samochody Audi)
+```{r}
+library(tidyverse)
+library(ggplot2)
+
+auta <- mpg %>% filter(manufacturer == "audi")
+
+ggplot(auta, aes(displ, cty)) + 
+geom_point() +
+labs(title = "Spalanie a pojemność", x = "Pojemność", y = "Spalanie")
+```
