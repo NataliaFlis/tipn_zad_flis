@@ -28,6 +28,7 @@ Wszystkie modele Audi można zobaczyć na stronie:
 Rozmiary felg-Audi:
 
 | Model | Rocznik | Moc | Rozmiar felg |
+|---------|---------|---------|---------|
 | A2 | 06.00 - 12.05 | 55 - 81kW | 5Jx15 |
 | A3 | 09.96 - 04.03 | 66 - 110kW | 6Jx15 |
 | A4 | 12.94 - 11.00 | 55 - 128kW | 6Jx15 |
