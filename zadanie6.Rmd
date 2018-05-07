@@ -1,10 +1,9 @@
 ---
 title: "zadanie6"
-output: 
- html_document
-   theme: united
-   highlight: kate
-   df_print: paged
+output: html_document
+theme: united
+highlight: kate
+df_print: paged
 ---
 
 ## Audi
@@ -60,3 +59,4 @@ geom_point() +
 labs(title = "Spalanie a pojemność", x = "Pojemność", y = "Spalanie")
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
